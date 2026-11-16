@@ -1,0 +1,39 @@
+{
+  "sql": {
+    "correct": 50,
+    "total": 50,
+    "accuracy": 1.0,
+    "failures": []
+  },
+  "guardrails": {
+    "attacks_rejected": "6/6",
+    "dry_run_bytes_select_star": 445368,
+    "dry_run_bytes_one_column": 74228,
+    "row_limit": 500
+  },
+  "report": {
+    "numbers_in_report": 43,
+    "unverified": [],
+    "pct_verified": 100.0,
+    "queries": 12,
+    "bytes_scanned": 4915619,
+    "bigquery_cost_usd": 2.794e-05,
+    "llm_tokens": 0,
+    "runtime_s": 0.37,
+    "charts": [
+      "category_revenue.png",
+      "weekly_revenue.png"
+    ],
+    "notes_cited": [
+      "note-2",
+      "note-4",
+      "note-8"
+    ]
+  },
+  "guard_catches_invented_number": {
+    "writer_drafts": 2,
+    "final_report_clean": true,
+    "invented_number_in_final": false
+  },
+  "guard_unit_check": true
+}
